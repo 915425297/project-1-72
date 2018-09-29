@@ -1,5 +1,5 @@
 #ifndef _PENNSH_H
-#define
+#define _PENNSH_H
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
