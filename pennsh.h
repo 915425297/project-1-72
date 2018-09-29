@@ -51,7 +51,7 @@ char ** divideBySpace(char t, char * i) {
 	return array;
 }
 
-int divideBy(char i, char ** array1, char ** array2);
+int divideBy(char i, char * array1, char ** array2);
 /*
 After forking the child process,
 this function will deal with pipe and redirection, including execute the divided string array and 
