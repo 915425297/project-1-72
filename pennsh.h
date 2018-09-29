@@ -23,9 +23,9 @@ divides the input by "|"
 @paras t the char that divide with
 @paras i the input string
 @paras array where to store the pointer of the splited array
-@return the number of segment
+@return the array pointer
 */
-int divideBySpace(char t, char * i, char ** array) {
+char ** divideBySpace(char t, char * i) {
 	int count = 0, x = 0;
 	while(i[x]) {
 		if (i[x] == t) count++;
@@ -48,13 +48,15 @@ int divideBySpace(char t, char * i, char ** array) {
 		}
 		x++;
 	}
-	return count;
+	return array;
 }
 
 int divideBy(char i, char ** array1, char ** array2);
 /*
+After forking the child process,
 this function will deal with pipe and redirection, including execute the divided string array and 
-check out the input error
+check out the input error.
+@params array1 
 */
 void doPipeAndRedirection(char ** array1);
 #endif
