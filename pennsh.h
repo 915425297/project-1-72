@@ -51,6 +51,10 @@ int divideBySpace(char t, char * i, char ** array) {
 	return count;
 }
 
-int divideBy(char i, char ** array1, char ** array2) {
-}
+int divideBy(char i, char ** array1, char ** array2);
+/*
+this function will deal with pipe and redirection, including execute the divided string array and 
+check out the input error
+*/
+void doPipeAndRedirection(char ** array1);
 #endif
