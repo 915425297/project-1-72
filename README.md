@@ -5,8 +5,8 @@
 Design and written by Ruijie Mao. A compiler that can compile the high level language to assembly code. Accompanied with assembler, I can compile and run the source code.
 
 ## Source Code Type
-Header: .h
-Source file: .dreamfly
+- Header: .h
+- Source file: .dreamfly
 
 ## List of Source File
 
