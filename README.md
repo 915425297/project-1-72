@@ -36,4 +36,4 @@ Design and written by Ruijie Mao. A compiler that can compile the high level lan
 
 # On going Work:
 
-The intepretter from class to normal programming
+The intepreter from class to normal programming
