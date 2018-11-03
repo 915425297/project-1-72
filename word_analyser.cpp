@@ -7,9 +7,9 @@ using namespace std;
 
 wordAnalyser::wordAnalyser() {
 	freopen("letters.txt", "r", stdin);
-	string g;
+	char[1024] g;
 	for (int x = 0; x <= 15; x++) {
-		cin>>g;
+		scanf("%s\n", &g);
 		tree.insert(g, "type", 0);
 	}
 }
